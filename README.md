@@ -34,7 +34,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. What does bcrypt do to help us store passwords in a secure manner.
 
-[by including hashing, adding up hashing rounds and adding extra implementation, bcrypt makes it so that a hacker will have a very long time, essentially impossible time hacking the password]
+[by including hashing, adding up hashing rounds and adding extra implementation to encrypt the password, bcrypt makes it so that a hacker will have a very long time, essentially impossible time hacking the password]
 
 1. What does bcrypt do to slow down attackers?
 
