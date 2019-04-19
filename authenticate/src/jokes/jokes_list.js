@@ -4,7 +4,7 @@ import Auth from '../auth/Auth';
 import styled from 'styled-components';
 
 const List = styled.div`
-    color: red;
+    color: whitesmoke;
     font-weight: bold;
 `;
 
@@ -20,7 +20,7 @@ class Jokes extends Component {
                 <h2>List of Jokes</h2>
                 <ul>
                     {this.state.jokes.map(user => (
-                        <li key={user.id}>{user.username}</li>
+                        <li key={user.id}>{user.joke}</li>
                     ))}
                 </ul>
             </List>

@@ -4,7 +4,7 @@ import Auth from '../auth/Auth';
 import styled from 'styled-components';
 
 const List = styled.div`
-    color: red;
+    color: whitesmoke;
     font-weight: bold;
 `;
 
