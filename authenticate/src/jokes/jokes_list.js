@@ -6,6 +6,7 @@ import styled from 'styled-components';
 const List = styled.div`
     color: whitesmoke;
     font-weight: bold;
+    line-height: .5;
 `;
 
 class Jokes extends Component {
@@ -18,11 +19,11 @@ class Jokes extends Component {
         return (
             <List>
                 <h2>List of Jokes</h2>
-                <ul>
+                <p>
                     {this.state.jokes.map(user => (
-                        <li key={user.id}>{user.joke}</li>
+                        <p key={user.id}>{user.joke}</p>
                     ))}
-                </ul>
+                </p>
             </List>
         )
     }
